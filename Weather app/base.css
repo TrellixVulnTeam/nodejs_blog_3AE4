@@ -1,0 +1,23 @@
+.grid{
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.grid__ful-width{
+	width: 100%;
+}
+.grid__row{
+	display: inline-flex;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+.grid__col-7{
+    padding-left: 12px;
+	padding-right: 12px;
+	width:14.2857142%;
+}
+.grid__col-3{
+	padding-left: 12px;
+	padding-right: 12px;
+	width:33.333333333%;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:  url(/img/rain-umbrella-vancouver-weather.jpg) ;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.weather-app{
+    background:linear-gradient(180deg,#41b6d3,#65d1e9);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+.search-bar{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search-box{
+   border: 0;
+   outline: 0;
+   padding: 3px 10px 3px 3px;
+   background: transparent;
+   border-bottom: 1px solid white;
+   color: white;
+   height: 30px;
+}
+.search-box::placeholder{
+    color: white;
+}
+.search-icon{
+    margin-top: 6px;
+    height:24px ;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.main-section{
+    display: inline-flex;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.location{
+    margin-top: 15px;
+}
+.city{
+    font-size: 30px;
+}
+.date{
+
+}
+.icon{
+    width: 120px;
+    height: 110px;
+    margin-top: -5px;
+}
+
+.current{
+    margin-top: 15px;
+}
+.temp{
+    font-size: 34px;
+}
+
+.weather-day{
+    display: inline-flex;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+}
